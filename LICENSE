@@ -1,7 +1,19 @@
-Note: Specific licenses apply to .vrm sample models. See vrm_samples/LICENSE_SAMPLES.txt for details
+Save for the portions mentioned in the "Exceptions & Third Party Assets" section below, which
+may each be licensed differently, this project is licensed as follows:
+    - The source code and art assets (images, 3D models, audio files) of
+    this project are available under the MIT license.
+    - The art assets (images, 3D models, audio files) of this project
+    are additionally licensed as [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). You
+    can attribute them to `Christian Knuchel (https://github.com/Aziroshin)`.
 
+Exceptions & Third Party Assets:
+- Mannequiny (https://github.com/GDQuest/godot-3d-mannequin)
+    - License: See `thirdparty/mannequiny/LICENSE`
+        
 MIT License
+Copyright (c) 2022 Christian Knuchel for Arkhadran Istravar
 Copyright (c) 2020-2021 V-Sekai Contributors (see credits in README.md)
+Copyright (c) 2020 GDQuest for Mannequiny
 Copyright (c) 2020 VRM Consortium
 Copyright (c) 2018 Masataka SUMI for MToon
 Copyright (c) 2007-2021 Juan Linietsky, Ariel Manzur.
@@ -24,3 +36,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+Creative Commons Attribution 4.0 International Public License
+
+Read the full license on: https://creativecommons.org/licenses/by/4.0/legalcode
