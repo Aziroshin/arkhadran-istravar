@@ -7,7 +7,7 @@ Maybe a walking simulator with a fancy name. o.O
 ## Credits
 
 ----
-
+**Note:** A party being listed here does in no way mean that they're affiliated with the project, are endorsing it in any way, or even know that it exists.
 ### godot-vrm:
 
 Thanks to the V-Sekai team and contributors:
