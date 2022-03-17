@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://786p32oxwfl3"]
+
+[ext_resource type="PackedScene" uid="uid://cp4d0n1xsgib1" path="res://assets/character_model_a.vrm" id="1_2jcp7"]
+[ext_resource type="Animation" uid="uid://dac0vxkucif4m" path="res://thirdparty/mannequiny/animations/run.res" id="2_1l5pp"]
+
+[node name="character_model_a" instance=ExtResource( "1_2jcp7" )]
+
+[node name="anim" parent="." index="3"]
+anims/run = ExtResource( "2_1l5pp" )

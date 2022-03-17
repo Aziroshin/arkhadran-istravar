@@ -21,9 +21,10 @@ _global_script_class_icons={
 [application]
 
 config/name="Arkhadran Istravar"
+run/main_scene="res://base_scenes/Main.tscn"
 config/icon="res://icon.png"
 config/features=PackedStringArray("4.0", "Vulkan Clustered")
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/Godot-MToon-Shader/plugin.cfg", "res://addons/vrm/plugin.cfg")
+enabled=PackedStringArray("res://addons/vrm/plugin.cfg")

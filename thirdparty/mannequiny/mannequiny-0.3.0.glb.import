@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dhy14ts6v0e5a"
+uid="uid://d4igam4ifspwn"
 path="res://.godot/imported/mannequiny-0.3.0.glb-b80337c94987c62a27735b147a9fa7fc.scn"
 
 [deps]
@@ -25,4 +25,76 @@ skins/use_named_skins=true
 animation/import=true
 animation/fps=15
 import_script/path=""
-_subresources={}
+_subresources={
+"animations": {
+"A": {
+"save_to_file/enabled": true
+},
+"air_jump": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "res://thirdparty/mannequiny/animations/air_jump.res",
+"settings/loop_mode": 0
+},
+"air_jump_anticipation": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "res://thirdparty/mannequiny/animations/air_jump_anticipation.res",
+"settings/loop_mode": 0
+},
+"air_land": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "res://thirdparty/mannequiny/animations/air_land.res",
+"settings/loop_mode": 0
+},
+"dash": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "res://thirdparty/mannequiny/animations/dash.res",
+"settings/loop_mode": 0
+},
+"fight_idle": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "res://thirdparty/mannequiny/animations/fight_idle.res",
+"settings/loop_mode": 0
+},
+"fight_kick": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "res://thirdparty/mannequiny/animations/fight_kick.res",
+"settings/loop_mode": 0
+},
+"fight_punch": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "res://thirdparty/mannequiny/animations/fight_punch.res",
+"settings/loop_mode": 0
+},
+"idle": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "res://thirdparty/mannequiny/animations/idle.res",
+"settings/loop_mode": 0
+},
+"idle_to_fight": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "res://thirdparty/mannequiny/animations/idle_to_fight.res",
+"settings/loop_mode": 0
+},
+"run": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "res://thirdparty/mannequiny/animations/run.res",
+"settings/loop_mode": 0
+}
+},
+"meshes": {
+"mannequiny-030_bony_body002": {
+"save_to_file/enabled": true,
+"save_to_file/path": "res://thirdparty/mannequiny/mannequiny-030_bony_body002.res"
+}
+}
+}
