@@ -27,4 +27,4 @@ config/features=PackedStringArray("4.0", "Vulkan Clustered")
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/vrm/plugin.cfg")
+enabled=PackedStringArray()
