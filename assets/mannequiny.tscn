@@ -1,6 +1,30 @@
-[gd_scene load_steps=2 format=3 uid="uid://h12foxfhlrtg"]
+[gd_scene load_steps=13 format=3 uid="uid://h12foxfhlrtg"]
 
 [ext_resource type="PackedScene" uid="uid://d4igam4ifspwn" path="res://thirdparty/mannequiny/mannequiny-0.3.0.glb" id="1_k66og"]
+[ext_resource type="Animation" uid="uid://bl1vjgne14d3x" path="res://thirdparty/mannequiny/animations/air_jump.res" id="2_1mw07"]
+[ext_resource type="Animation" uid="uid://c1hc2hbu1u4rd" path="res://thirdparty/mannequiny/animations/air_jump_anticipation.res" id="3_1s5db"]
+[ext_resource type="Animation" uid="uid://cnd2u52i8pub6" path="res://thirdparty/mannequiny/animations/air_land.res" id="4_84jmg"]
+[ext_resource type="Animation" uid="uid://b7k8fwn0jt5if" path="res://thirdparty/mannequiny/animations/dash.res" id="5_5c02f"]
+[ext_resource type="Animation" uid="uid://cfboqp6jys76x" path="res://thirdparty/mannequiny/animations/fight_idle.res" id="6_knvj0"]
+[ext_resource type="Animation" uid="uid://bkebu370rh7dr" path="res://thirdparty/mannequiny/animations/fight_kick.res" id="7_n72ma"]
+[ext_resource type="Animation" uid="uid://de3m8iiib2tkg" path="res://thirdparty/mannequiny/animations/fight_punch.res" id="8_2wllc"]
+[ext_resource type="Animation" uid="uid://buxjc637rp0oj" path="res://thirdparty/mannequiny/animations/idle.res" id="9_hc275"]
+[ext_resource type="Animation" uid="uid://2yxcwynxfkw" path="res://thirdparty/mannequiny/animations/idle_to_fight.res" id="10_urxq5"]
+[ext_resource type="Animation" uid="uid://dac0vxkucif4m" path="res://thirdparty/mannequiny/animations/run.res" id="11_crhmi"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_g2tu2"]
+_data = {
+"air_jump": ExtResource( "2_1mw07" ),
+"air_jump_anticipation": ExtResource( "3_1s5db" ),
+"air_land": ExtResource( "4_84jmg" ),
+"dash": ExtResource( "5_5c02f" ),
+"fight_idle": ExtResource( "6_knvj0" ),
+"fight_kick": ExtResource( "7_n72ma" ),
+"fight_punch": ExtResource( "8_2wllc" ),
+"idle": ExtResource( "9_hc275" ),
+"idle_to_fight": ExtResource( "10_urxq5" ),
+"run": ExtResource( "11_crhmi" )
+}
 
 [node name="mannequiny-030" instance=ExtResource( "1_k66og" )]
 
@@ -86,3 +110,8 @@ bones/41/rotation = Quaternion(-0.650811, 0.0180053, 0.0206723, 0.758745)
 bones/42/rotation = Quaternion(0.208248, 0.0022412, -0.0281771, 0.977668)
 bones/43/rotation = Quaternion(-0.559718, -0.00199434, 0.0522081, 0.827035)
 bones/44/rotation = Quaternion(-0.575822, -0.00727906, 0.0274971, 0.81708)
+
+[node name="AnimationPlayer" parent="." index="1"]
+libraries = {
+"": SubResource( "AnimationLibrary_g2tu2" )
+}
