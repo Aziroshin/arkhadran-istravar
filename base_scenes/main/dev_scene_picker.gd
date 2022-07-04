@@ -56,8 +56,8 @@ func load_scene(resource_path: String):
 	var dev_scene: Node3D = dev_scene_resource.instantiate()
 	if current_dev_scene:
 		main_scene.remove_child(current_dev_scene)
-	main_scene.call_deferred("add_child", dev_scene)
 	current_dev_scene = dev_scene
+	main_scene.call_deferred("add_child", dev_scene)
 	
 	
 func _ready() -> void:
