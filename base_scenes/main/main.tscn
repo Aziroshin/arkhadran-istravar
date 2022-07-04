@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://mk5beicjt4xm"]
+
+[ext_resource type="Script" path="res://base_scenes/main/dev_scene_picker_button.gd" id="1_pf6t1"]
+[ext_resource type="Script" path="res://base_scenes/main/dev_scene_picker.gd" id="1_wpcpn"]
+
+[node name="Main" type="Node3D"]
+
+[node name="DevOverlay" type="Control" parent="."]
+anchor_right = 1.001
+anchor_bottom = 1.0
+offset_right = -0.0240479
+offset_bottom = 1.0
+
+[node name="DevScenePicker" type="GridContainer" parent="DevOverlay"]
+offset_left = 365.0
+offset_top = 15.0
+offset_right = 648.0
+offset_bottom = 46.0
+columns = 2
+script = ExtResource( "1_wpcpn" )
+
+[node name="Character" type="Button" parent="DevOverlay/DevScenePicker"]
+offset_right = 133.0
+offset_bottom = 31.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Character"
+script = ExtResource( "1_pf6t1" )
+dev_scene_resource_path = "res://dev/dev_scenes/character_dev_scene/character_dev_scene.tscn"
+
+[node name="AdventureBuildSystem" type="Button" parent="DevOverlay/DevScenePicker"]
+offset_left = 137.0
+offset_right = 283.0
+offset_bottom = 31.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Adv. Build System"
+script = ExtResource( "1_pf6t1" )
+dev_scene_resource_path = "res://dev/dev_scenes/adventure_build_system_dev_scene/adventure_build_system_dev_scene.tscn"
+
+[connection signal="button_down" from="DevOverlay/DevScenePicker/Character" to="DevOverlay/DevScenePicker/Character" method="_on_button_down"]
+[connection signal="button_down" from="DevOverlay/DevScenePicker/AdventureBuildSystem" to="DevOverlay/DevScenePicker/AdventureBuildSystem" method="_on_button_down"]

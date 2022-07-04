@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://btxk132avriwa"]
+
+[ext_resource type="Script" path="res://dev/dev_scenes/character_dev_scene/character_dev_scene.gd" id="1_h0wk6"]
+
+[node name="CharacterDevScene" type="Node3D"]
+script = ExtResource( "1_h0wk6" )
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.204736, 0.0256683, 2.22971)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="."]
